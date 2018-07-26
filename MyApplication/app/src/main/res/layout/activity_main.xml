@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8pt">
+
+        <EditText
+            android:id="@+id/MessageV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="@android:color/holo_blue_light"
+            android:inputType="textEmailAddress"
+            android:hint="Type your message here..." />
+
+        <Button
+            android:id="@+id/btnActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
+            android:text="ACTIVITY"
+            android:background="@android:color/holo_blue_dark"/>
+        <Button
+            android:id="@+id/btnEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
+            android:text="EMAIL"
+            android:background="@android:color/holo_blue_light"/>
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
